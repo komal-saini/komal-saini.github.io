@@ -8,14 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/akiki-liang0/Portfolio.git"
+    "url": "git+https://github.com/komal-saini/komal-saini.github.io"
   },
-  "author": "Akiki Liang",
+  "author": "Komal Saini",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/akiki-liang0/Portfolio/issues"
-  },
-  "homepage": "https://github.com/akiki-liang0/Portfolio#readme",
+
   "dependencies": {
     "tailwindcss": "^1.4.6"
   }
