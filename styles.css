@@ -1,0 +1,165 @@
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Menlo";
+    background-color:#deeff5;
+    color: #5e6161;
+  }
+
+  form {
+    text-align: center;
+  }
+  
+  h2,
+  .black {
+    color: black;
+  }
+  
+  a {
+    color: #5e6161;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  
+  button {
+    font-family: inherit;
+  }
+  
+  .section-1 p {
+    font-size: 0.9rem;
+    padding-bottom: 30px;
+    margin: 0;
+  }
+  
+  .hashing p {
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin: 0;
+  }
+  
+  .section-1,
+  .hashing h2 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  
+  .back,
+  .hashing,
+  .section-1 a {
+    font-size: 1.8rem;
+    padding: 10px;
+  }
+  
+  .section-1 {
+    padding-top: 9vh;
+    padding-left: 14vw;
+    text-align: center;
+  }
+  
+  .section-2 {
+    padding-left: 10vw;
+    padding-top: 9vh;
+    width: 70%;
+  }
+  
+  .section-2 h2 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+  
+  .section-2 p {
+    font-size: 0.9rem;
+    padding-bottom: 10px;
+    margin: 0;
+  }
+  
+  .section-2 a {
+    display: block;
+    padding: 5px;
+    font-size: 0.95rem;
+    padding-left: 0;
+    width: 100px;
+  }
+  
+  .hashing {
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .back {
+    padding: 30px;
+  }
+  
+  .input {
+    padding-bottom: 10px;
+  }
+  /* animations / utilities */
+  .section-2 a:hover {
+    color: black;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .section-1 a:hover {
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .hashing a:hover {
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .back a:hover {
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .btn {
+    background-color: #5e6161;
+    color: #e7e5e5;
+    font-size: 1.7rem;
+    padding: 12px 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    background-color: black;
+    transition: 0.3s;
+  }
+  
+  /* media queries */
+  @media (max-width: 780px) {
+    .grid-2 {
+      grid-template-columns: 1fr;
+    }
+    .section-1 {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      padding-top: 5rem;
+    }
+    .hashing {
+      top: 30%;
+    }
+    .section-2 {
+      width: inherit;
+      padding: 0;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      padding-top: 2rem;
+    }
+  }
