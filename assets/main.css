@@ -307,7 +307,7 @@ h4 { font-weight: 600; }
 
 .project-role { font-size: 13px; }
 
-.project-image { object-fit: cover; width: 100%; height: 175px; }
+.project-image { object-fit: scale-down; width: 100%; height: 175px; }
 
 .post-title-container { display: flex; flex-direction: row; align-items: baseline; justify-content: space-between; }
 
